@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+
+}
+
+/* header   */
+header {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+    text-align: right;
+    background-image: url(../new-year-new-me/images/banner/banner1.png);
+}
+
+.header-content {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 650px;
+    margin-right: 150px;
+}
+
+h1 {
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 20px;
+
+}
+
+.hedaer-description {
+    font-size: 16px;
+    color: #444343;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+
+button {
+    padding: 12px 18px;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+    border: none;
+    background: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+a:hover {
+    color: green;
+    font-weight: 900;
+}
+
+/* header  */
+
+/* failure   */
+.failure-section {
+    
+    display: flex;
+    margin: 10px 100px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 40px;
+}
+.failure-image{
+    width: 50%;
+}
+.failure-description{
+    width: 50%;
+    margin-top: 150px;
+}
+.fa-solid{
+    color: #16D887;
+    margin-right: 6px;
+}
+/* failure  */
+
+/* my plans   */
+.my-plans-h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    font-family: 'Work Sans', sans-serif;
+    margin: 50px 0;
+}
+.my-plan{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 300px 300px 250px;
+    padding: 0 230px;
+}
+.my-plans-h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 16px;
+
+}
+.my-plans-p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 16px;
+  
+}
+/* my plans  */
+
+
+/* gradient  */
+
+.gradient-section{
+    margin: 100px 230px 150px;
+    height: 300px;
+    background-image:linear-gradient(to right, rgba(255, 6, 201, 0.52), rgba(55, 2, 245, 0.071)),url('../new-year-new-me/images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+}
+.gradient-text{
+padding: 59px 500px 0 63px;
+color: #F8F8F8;
+}
+.gradient-h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 15px 0;
+    
+}
+.gradient-button{
+    height: 63px;
+    width: 160px;
+    border-radius: 8px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: white;
+border: none;
+cursor: pointer;
+}
+/* gradient  */
+
+/* extra  */
+.contact{
+    text-align: center;
+    height: 550px;
+    padding: 50px 230px;
+    background-image: linear-gradient( #151414,white);
+    color: white;
+}
+.contact-header{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+    
+}
+fieldset label,input{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    background-color: grey;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: #151414;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+/* extra */
+
+
+/* future  */
+.future{
+    display: flex;
+    gap: 100px;
+    height: 577px;
+    padding: 130px 230px;
+     background: #151414;
+     font-family: 'Work Sans';
+     color: #F8F8F8;
+
+
+}
+.future-section-left{
+    padding: 70px;
+    font-family: 'Work Sans';
+}
+.future-section-right{
+    padding: 70px;
+    font-family: 'Work Sans';
+}
+.future-section-title{ 
+margin: 0px;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+}
+.future-section-description{
+font-weight: 200;
+font-size: 16px;
+line-height: 30px;
+}
+.future-section-button{
+    border-radius: 8px;
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    color: #F15B22;
+    cursor: pointer;
+}
+.future-section-form input[type="email"]{
+    margin: 10px 0px;
+    width: 325px;
+    height: 50px;
+    border-radius: 8px;
+}
+/* future   */
