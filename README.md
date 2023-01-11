@@ -1,5 +1,5 @@
 # Web-Development-Practice
-Topic in list repo :
+Topic in list repository :
 -Basic HTML
 -Basic CSS
 -Github basic
