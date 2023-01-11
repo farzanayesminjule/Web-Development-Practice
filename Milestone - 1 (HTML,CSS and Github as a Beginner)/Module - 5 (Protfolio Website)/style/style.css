@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.btn-primary{
+    color: white;
+    font-weight: 700;
+    font-size: 20px ;
+    border: 0;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 35px;
+
+}
+
+/* Start : header and navigation styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../portfolio-resources/images/header_bg.png'), url(../portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 150px;
+}
+
+.nav-title {
+    font-weight: 800 ;
+    font-size: 45px;
+}
+
+nav ul{
+   display: flex;
+   align-items: center;
+}
+
+nav li{
+ list-style: none;
+ padding: 5px;
+ margin-left: 50px;
+}
+
+.r{
+color: #FD6E0A;
+}
+
+/* End : header and navigation styles */
+
+/* Start : Header Banner Style */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.subbanner-title{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    color: #757577;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+/* End : Header Banner Style */
+
+/* about section styles */
