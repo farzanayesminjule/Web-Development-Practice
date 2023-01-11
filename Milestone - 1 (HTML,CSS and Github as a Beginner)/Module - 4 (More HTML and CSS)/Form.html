@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Start : Form-->
+    <h2>Welcome to Pitha Ghor</h2>
+
+
+    <form>
+        <!-- Start : Name -->
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <!-- End : Name -->
+       
+        <!-- Start : Email -->
+        <label for="email">Your Email
+            <input id="email" type="text" placeholder="Your Email">
+        </label>
+        <!-- End : Email -->
+
+        <!-- Start : phone -->
+        <label for="phone">Your Phone
+            <input id="phone" type="number" placeholder="Your Phone">
+        </label>
+        <!-- End : phone -->
+
+        <!-- Start : select pitha -->
+        <fieldset>
+            <legend>Pick One Pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="vapa" id="vapa">
+                Vapa
+            </label>
+        </fieldset>
+        <!-- End : select pitha -->
+
+        <!-- Start : select Vorta -->
+        <fieldset>
+            <legend>Choose Vorta</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="sorisa" id="chitoy">
+                Sorisa
+            </label>
+            <label for="sutki">
+                <input type="checkbox" name="sutki" id="sutki">
+                Vapa
+            </label>
+        </fieldset>
+        <!-- End : select Vorta -->  
+        
+
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" row="5"></textarea>
+            <br/>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+
+
+    </form>
+    <!-- End : Form-->
+
+</body>
+</html>
