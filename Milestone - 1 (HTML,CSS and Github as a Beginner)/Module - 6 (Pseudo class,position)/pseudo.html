@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Start : style-->
+
+    <style>
+        h2:hover {
+            color :rgb(254, 253, 252);
+            background-color: rgb(7, 7, 6);
+            font-weight: 700;
+        }
+
+        .middle:focus{
+            color: rgb(19, 25, 212);
+            font-weight: 700;
+        }
+        a:visited{
+            color: brown;
+        }
+
+        li:first-child{
+            color: blueviolet;
+        }
+
+        li:last-child{
+            color: rgb(123, 33, 8);
+        }
+
+        li:nth-child(2n){
+         color: darkgoldenrod;
+        }
+
+        h3::before{
+            content : 'Number ';
+        }
+
+        h3::after{
+            content: ' roll';
+        }
+
+        .number{
+            color: black;
+        }
+
+        #ring{
+        position: sticky;
+        top: 20px;
+       
+
+        }
+
+        .dummy{
+            height: 150px;
+            width: 250px;
+            background-color: rgb(72, 155, 88);
+        }
+
+        /*End : style*/
+    </style>
+</head>
+<body>
+    <!--Start : hover -->
+    <h2>This is Normal</h2>
+    <input type="text">
+    <!--Start : focus-->
+    <input class="middle" type="text">
+    <!--End : focus-->
+    <input type="text">
+     <!--End : hover-->
+    <br>
+
+    <!--Start : visited-->
+<a href="http://127.0.0.1:5500/pseudo.html">Website</a>
+<a href="https://www.google.com">Google</a>
+<a href="https://www.dictionary.com/browse/happy">Never Visited</a>
+<!--End : visited-->
+
+<hr>
+
+<!--Start : Child and before-after-->
+<h3>one</h3>
+<h3>two</h3>
+<h3>three</h3>
+<h3>four</h3>
+<h3>five</h3>
+<h3>six</h3>
+<!--End : Child and before-after-->
+<hr>
+
+<ul>
+    <li>Farzana</li>
+    <li>Yesmin</li>
+    <li>Jule</li>
+    <li>Mosfik</li>
+    <li>Rahman</li>
+    <li>Happy</li>
+</ul>
+
+<hr>
+<section >
+    <h1>One</h1>
+    <h1>Two</h1>
+    <h1>Three</h1>
+</section>
+
+<section class="number">
+    <div><img src="./pseudo-box/images/boy.svg" alt=""></div>
+
+    <div id="ring"><img src="./pseudo-box/images/ring.svg" alt=""></div>
+
+    <div><img  src="./pseudo-box/images/water.svg" alt=""></div>
+
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+<div class="dummy"></div>
+
+</section>
+</body>
+</html>
