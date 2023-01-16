@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+    .container{
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .box{
+        height: 100px;
+        width: 100%;
+        background-color: burlywood;
+    }
+    @media screen and (max-width: 576px){
+        .container{
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (min-width:576px ) and (max-width: 992px){
+        .box{
+            background-color: aquamarine;
+        }
+    }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="box">
+            <h3>Box-1</h3>
+        </div>
+        <div class="box">
+            <h3>Box-2</h3>
+        </div>
+        <div class="box">
+            <h3>Box-3</h3>
+        </div>
+        <div class="box">
+            <h3>Box-4</h3>
+        </div>
+    </section>
+</body>
+</html>
