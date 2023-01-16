@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsible Website</title>
+    <style>
+        body{
+            border: 1px solid seagreen;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1{
+            font-size: 10vw;
+        }
+
+        .umbrella{
+            width: 100%;
+        }
+
+        .container-two .split{
+            width: 50%;
+        }
+        .split img{
+            width: 100%;
+        }
+        @media screen  and (max-width: 575px){
+            .container-two{
+                flex-direction: column-reverse;
+            }
+        }
+        .container-two .split{
+            width: 50%;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <section>
+        <h1>My Responsive Website</h1>
+    </section>
+
+    <section class="umbrella">
+        <img src="images/B.jpg">
+    </section>
+
+    <section>
+        <h2>Two Parts</h2>
+        <div class="container-two">
+            <div class="split">
+                <img src="images/D.jpg">
+            </div>
+            <div class="split">
+                <img src="images/G.jpg">
+            </div>
+        </div>
+    </section>
+    <!--
+        1. viewport meta tag
+        2. CSS Relative unit
+        3. responsive Image(Fluid Images)
+        4.body max-width and margin auto
+        5. Responsive  screen using flex 
+    -->
+</body>
+</html>

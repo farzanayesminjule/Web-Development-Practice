@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/0e44beec84.js" crossorigin="anonymous"></script>
+    <style>
+
+        nav{
+            display: flex;
+            justify-content: space-between ;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 15px;
+
+        }
+
+        .login{
+            display: flex;
+
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap:10px;
+            
+        }
+
+        .btn{
+            width: 25% !important;
+            color: aliceblue;
+            background-color: rgb(134, 72, 211);
+            border: none;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact Us</a>
+        </div>
+         <div>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+        </nav>
+    </header>
+
+
+    <section class="login">
+    <form class="login-form">
+
+        <h1>Please Log In</h1>
+        <input type="email" placeholder="Your Email" required>
+
+        <input type="password" placeholder="Your Password" required>
+
+        <input class="btn" type="submit" Value="Login" required>
+    </form>
+
+</section>
+
+</body>
+</html>
